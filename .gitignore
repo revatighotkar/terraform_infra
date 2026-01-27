@@ -2,6 +2,7 @@
 *.tfvars
 *.tfvars.json
 # Terraform state (extra safety)
+
 *.tfstate
 *.tfstate.*
 .terraform/terraform.lock.hcl 
