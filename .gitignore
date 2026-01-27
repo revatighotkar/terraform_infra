@@ -1,7 +1,6 @@
 # Terraform variable files
 *.tfvars
 *.tfvars.json
-
 # Terraform state (extra safety)
 *.tfstate
 *.tfstate.*
