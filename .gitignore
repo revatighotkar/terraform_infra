@@ -7,3 +7,5 @@
 *.tfstate.*
 *.terraform/
 *.terraform.lock.hcl 
+*.tfbackend
+backend.tf
