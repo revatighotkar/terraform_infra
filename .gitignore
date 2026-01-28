@@ -1,11 +1,17 @@
 # Terraform variable files
 *.tfvars
 *.tfvars.json
-# Terraform state (extra safety)
 
+# Terraform state
 *.tfstate
 *.tfstate.*
-*.terraform/
-*.terraform.lock.hcl 
+
+# Terraform working directory
+.terraform/
+
+# Provider lock file
+.terraform.lock.hcl
+
+# Backend files (sensitive)
 *.tfbackend
 backend.tf
