@@ -15,10 +15,3 @@
 # Backend files (sensitive)
 .tfbackend
 backend.tf
-.terraform/
-*.tfstate
-*.tfstate.*
-*.tfvars
-*.tfvars.json
-*.tfbackend
-.crash.log
